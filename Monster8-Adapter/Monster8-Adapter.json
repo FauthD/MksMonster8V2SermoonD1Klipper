@@ -1,0 +1,49 @@
+{
+    "parameterSets": {
+        "design default values": {
+            "BoardDrillDiameter": "4.7",
+            "BoardLenght": "160",
+            "BoardWidth": "90",
+            "CrealityDrillDiameter": "3.8",
+            "DrillLenght": "152",
+            "DrillWidth": "82",
+            "FanDiameter": "120",
+            "FanHeight": "36",
+            "FanMountingPostDiameter": "11",
+            "FanOffset_X": "-10",
+            "FanScrewDiameters": "5.7",
+            "FanScrewDistance": "105",
+            "MountDiameter": "8",
+            "MountDiameter2": "11",
+            "MountHeight": "5",
+            "Offset_X": "-10",
+            "Offset_Y": "10",
+            "PrintThis": "all",
+            "Thickness": "3",
+            "UseFan": "true"
+        },
+        "Monster8-Adapter-withFan": {
+            "BoardDrillDiameter": "4.7",
+            "BoardLenght": "160",
+            "BoardWidth": "90",
+            "CrealityDrillDiameter": "3.8",
+            "DrillLenght": "152",
+            "DrillWidth": "82",
+            "FanDiameter": "120",
+            "FanHeight": "36",
+            "FanMountingPostDiameter": "11",
+            "FanOffset_X": "-10",
+            "FanScrewDiameters": "5.7",
+            "FanScrewDistance": "105",
+            "MountDiameter": "8",
+            "MountDiameter2": "11",
+            "MountHeight": "5",
+            "Offset_X": "-10",
+            "Offset_Y": "10",
+            "PrintThis": "all",
+            "Thickness": "3",
+            "UseFan": "true"
+        }
+    },
+    "fileFormatVersion": "1"
+}
