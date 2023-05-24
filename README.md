@@ -5,6 +5,7 @@ This is WIP, do not use it yet.
 I will add details here when it is ready and works.
 
 # Progress
+[You can see many installation details there](InstallationJournal.md).
 
 ## Mechanics
 Created an adapter to mount the Monster8 since it does not fit to the mounting holes. I also added some mounts for a big 120mm fan (because it was easier with a fan larger than the board). The fan runs with about 600 rmp and is barly audible.
@@ -26,4 +27,5 @@ Note3: We need heigher feet. Already printed some test feet with 28mm height (ne
 Note4: I cannot check whether the original wires are long enough since I did buy the printer used and the wires are not original anymore.
 ## Klipper
 
-Waiting for the board, in the meantime I start with the configs based on my configs for the SKR3 board.
+Working on this.
+
