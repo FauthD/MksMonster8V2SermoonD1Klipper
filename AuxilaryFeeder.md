@@ -43,7 +43,7 @@ Both the extruder (feeder) and the auxilary_feeder need to tranport the filament
 So at least I want to see some transport.
 1. Heat up the hotend to 200°C
 2. Wait for heating up
-3. Have filamanet in both the regular extruder and the auxilary one.
+3. Have filament in both the regular extruder and the auxilary one.
 	I had used different filament pieces so they are independent from each other at this stage.
 4. In the dashboard click on extrude.
 5. Filamanets in both extruders should move in the same direction.
@@ -62,7 +62,7 @@ Both extruders must transport the exact same amount of filament. For the test I 
 	If not, calculate new rotation_distance values as described in the Klipper docs.
 	In my case it was 20mm for both strings.
 5. Do the same test with a higher speed `G1 E50 F600`.
-	In my case there was quite a difference. Auxilary feeder was still at 20mm, but the normal feeder/extruder was at 35mm.
+	In my case there was quite a difference. Auxilary feeder was still at 20mm, but the normal feeder/extruder was at 35mm that means it only feeds 35mm instead 50mm.
 	Currently I do not understand why the difference is that big.
 
 # Reserching different filamant transport
@@ -71,3 +71,14 @@ This time the normal extruder was at 32mm. A bit more filament was feed, but sti
 
 This could be a sign that my extruder has an issue. Or my expectations are plain wrong. Most likely the latter.
 
+Increasing the current from 0.6A to 0.8A did not change much. I had hoped we loose steps, though normally this could be heared.
+
+With `G1 E50 F200` the rest was 23mm which is still 3mm to less.
+
+Visually I see the speed of the filament changes a bit while the test runs.
+I will check the brass wheel of the extruder, but need to take it appart for this. What I can so so far it does not look too bad, but also not perfect. The allen screw sits absolut locked, need to take the complete head appart for better handling.
+
+<img src="assets/ExtruderWheel.jpg" width="33%">
+
+With a new wheel it seems better, but at `G1 E50 F600` the extruder klicks. It is a sign that the old wheel was worn out.
+Still a lot to do here. I guess it has nothing to do with the auxilary feeder, was just found randomly.
