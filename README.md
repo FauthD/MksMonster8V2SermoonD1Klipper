@@ -4,6 +4,16 @@ Klipper settings for MKS Monster8 V2 build into the Creality Sermoon D1
 This is WIP, do not use it yet.
 I will add details here when it is ready and works.
 
+# CAUTION: DO not use DFU with 24V connected with this board.
+It can kill transistor Q7 (turning on bed heater all the time and Q7 gets very hot).
+See there
+
+[Bed is always heated after upgrade FW to v0.11.0-241-gffb5105b](https://github.com/makerbase-mks/MKS-Monster8/issues/40)
+
+and
+
+[V2 board starts burning when attempting dfu mode](https://github.com/makerbase-mks/MKS-Monster8/issues/26)
+
 # Progress
 [You can see many installation details there](InstallationJournal.md).
 
